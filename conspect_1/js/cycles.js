@@ -123,7 +123,6 @@ while (i <= 16) {
 const arrayOfNumbers = [];
 let a = 0;
 for (let i = 5; i <= 10; i++) {
-
     arrayOfNumbers[a] = i;
     a++;
 }
