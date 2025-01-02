@@ -169,7 +169,7 @@ console.log(returnNeighboringNumbers(5));
 
 // Место для третьей задачи
 function getMathResult(first, second) {
-    result = '';
+    result = '';``
     line = '---';
 
     if(typeof(second) !== 'number' || second < 0) {
