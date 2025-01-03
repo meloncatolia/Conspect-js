@@ -137,7 +137,7 @@ showMyDB();
 
 function rememberMyFilms() {
     for (let i = 0; i < 2; i++) {
-        const viewedFilms = prompt('Один из последних просмотренных фильмов?', ''),
+        const viewedFilms = prompt('Один из последних просмотренных фильмов?', '').trim(), // метод trim() удаляет лишние пробелы
               estimationFilms = prompt('На сколько оцените его?', '');
     
         if (viewedFilms != null && estimationFilms != null && viewedFilms != '' && estimationFilms != '' && viewedFilms.length < 50) {
