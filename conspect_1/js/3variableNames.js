@@ -1,3 +1,5 @@
+// 3. Правила и типы названия переменных.
+
 const vehicleBodyWidth = 5000,
       vehicleBodyLength = 4000;
 
